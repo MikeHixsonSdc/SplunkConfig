@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Copy config files to search application
+cp -r /logs/a/splunk_config/. $SPLUNK_HOME/etc/apps/search/local/
+
+sudo $SPLUNK_HOME/bin/splunk stop
+yes | sudo $SPLUNK_HOME/bin/splunk clean eventdata
+sudo $SPLUNK_HOME/bin/splunk start
