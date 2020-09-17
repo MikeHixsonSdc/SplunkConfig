@@ -10,3 +10,10 @@ Bind Mount /logs/a to c:/stampslogs
 Bind Mount /logs/b to d:/stampslogs
 
 Bind Mount /splunkconfig to c:/git/mikehixsonsdc/splunkconfig
+
+
+The first time running open a command prompt on the machine.
+
+./splunk-rset
+
+from /splunkconfig/script
