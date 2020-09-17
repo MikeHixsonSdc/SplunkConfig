@@ -17,3 +17,6 @@ The first time running open a command prompt on the machine.
 ./splunk-rset
 
 from /splunkconfig/script
+
+From the UI
+Settings > Licensing > Change License Group > Free License
