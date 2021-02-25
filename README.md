@@ -16,7 +16,7 @@ The first time running open a command prompt on the machine.
 
 docker exec -it splunk /bin/bash
 
-./splunk-reset
+bash splunk-reset.sh
 
 from /splunkconfig/script
 
