@@ -14,7 +14,9 @@ Bind Mount /splunkconfig to c:/git/mikehixsonsdc/splunkconfig
 
 The first time running open a command prompt on the machine.
 
-./splunk-rset
+docker exec -it splunk /bin/bash
+
+./splunk-reset
 
 from /splunkconfig/script
 
