@@ -2,7 +2,8 @@
 
 # The docker image doesnt have tzdata package, therefore no concept of timezones
 # https://www.reddit.com/r/Splunk/comments/loktmw/time_wrong_even_with_the_correct_timezone_set_up/
-sudo microdnf -y --nodocs update tzdata
+#sudo microdnf -y --nodocs update tzdata
+#sudo microdnf -y --nodocs reinstall tzdata
 
 # Set permissions on config locations so we can write
 sudo chmod -R go+rwx $SPLUNK_HOME/etc/system/
