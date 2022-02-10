@@ -20,9 +20,6 @@ The first time running, execute the following to configure.
 docker exec -it splunk /splunkconfig/script/splunk-reset.sh
 ```
 
-From the UI
-Settings > Licensing > Change License Group > Free License
-
 If some logs are not showing up try fixing the permissions on the bind mounts:
 
 ```console
