@@ -1,0 +1,14 @@
+services:
+  splunk:
+    image: splunk/splunk:9.0
+    container_name: splunk
+    ports:
+      - 8000:8000
+    environment:
+      SPLUNK_START_ARGS: --accept-license
+      SPLUNK_LICENSE_URI: Free
+      SPLUNK_PASSWORD: password      
+    volumes:
+      - ./default.yml:/tmp/defaults/default.yml
+      - /mnt/c/StampsLogs:/logs/a
+      - /mnt/d/StampsLogs:/logs/b      
