@@ -8,6 +8,12 @@ splunk:
         content:
           settings:
             ui_inactivity_timeout: -1
+    - key: user-prefs
+      value:
+        directory: /opt/splunk/etc/system/local
+        content:
+          general:
+            tz: America/Los_Angeles
     - key: inputs
       value:
         directory: /opt/splunk/etc/apps/search/local
