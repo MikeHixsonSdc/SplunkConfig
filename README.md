@@ -1,6 +1,8 @@
 # SplunkConfig
 Run Splunk locally
 
+Run from linux so that the volume paths in the compose file work correctly.
+
 ```console
 docker-compose up -d
 ```
