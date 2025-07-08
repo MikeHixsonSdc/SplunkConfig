@@ -23,7 +23,7 @@ splunk:
             host: unknown
             host_regex: ^.+/([^_]+)
             sourcetype: sdc_log
-            whitelist: \.log$
+            blacklist: \.bak$
     - key: props
       value:
         directory: /opt/splunk/etc/apps/search/local

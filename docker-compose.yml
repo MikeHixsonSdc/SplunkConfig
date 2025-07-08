@@ -11,4 +11,6 @@ services:
     volumes:
       - ./default.yml:/tmp/defaults/default.yml
       - /mnt/c/StampsLogs:/logs/a
-      - /mnt/d/StampsLogs:/logs/b      
+      - /mnt/d/StampsLogs:/logs/b
+      - /mnt/d/Logs:/logs/c
+      - /mnt/d/EndiciaLogs:/logs/d
